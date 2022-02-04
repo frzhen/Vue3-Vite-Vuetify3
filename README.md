@@ -20,7 +20,7 @@
     - Commit changes
     - install packages `npm install`
 
-
+##### [How to Migrate from Vue CLI to Vite](https://vueschool.io/articles/vuejs-tutorials/how-to-migrate-from-vue-cli-to-vite/)
 
 ## Project setup
 ```
