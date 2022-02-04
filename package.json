@@ -3,21 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vite preview",
+    "build": "vite build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "vite"
   },
   "dependencies": {
+    "@mdi/font": "5.9.55",
     "core-js": "^3.8.3",
+    "roboto-fontface": "*",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vuetify": "^3.0.0-alpha.0",
+    "vuex": "^4.0.0",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@vitejs/plugin-vue": "^1.2.4",
     "@vue/cli-plugin-babel": "~5.0.0-rc.2",
     "@vue/cli-plugin-e2e-cypress": "~5.0.0-rc.2",
     "@vue/cli-plugin-eslint": "~5.0.0-rc.2",
@@ -27,12 +33,16 @@
     "@vue/cli-service": "~5.0.0-rc.2",
     "@vue/test-utils": "^2.0.0-0",
     "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.3",
     "babel-jest": "^27.0.6",
     "cypress": "^8.3.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "jest": "^27.0.5",
-    "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass": "^1.38.0",
+    "sass-loader": "^12.0.0",
+    "vite": "^2.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.5",
+    "vuetify-loader": "^2.0.0-alpha.0"
   }
 }
